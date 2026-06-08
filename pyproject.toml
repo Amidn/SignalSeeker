@@ -69,10 +69,10 @@ notebook = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/SignalSeeker"
-Documentation = "https://github.com/yourusername/SignalSeeker/wiki"
-Repository = "https://github.com/yourusername/SignalSeeker.git"
-Issues = "https://github.com/yourusername/SignalSeeker/issues"
+Homepage = "https://github.com/Amidn/SignalSeeker"
+Documentation = "https://github.com/Amidn/SignalSeeker/wiki"
+Repository = "https://github.com/Amidn/SignalSeeker.git"
+Issues = "https://github.com/Amidn/SignalSeeker/issues"
 
 [project.scripts]
 signal-seeker = "signalseeker.main:main"

@@ -20,7 +20,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Amid Nayerhoda",
     author_email="amid.nayerhoda@gmail.com",
-    url="https://github.com/yourusername/SignalSeeker",
+    url="https://github.com/Amidn/SignalSeeker",
     license="MIT",
     python_requires=">=3.8",
     package_dir={"": "src"},

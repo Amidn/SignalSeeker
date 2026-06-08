@@ -10,7 +10,7 @@ Be respectful, inclusive, and constructive in all interactions. We welcome contr
 
 ### Reporting Bugs
 
-1. **Check if the bug exists**: Search [existing issues](https://github.com/yourusername/SignalSeeker/issues)
+1. **Check if the bug exists**: Search [existing issues](https://github.com/Amidn/SignalSeeker/issues)
 2. **Include details**:
    - Python version (`python --version`)
    - Package version (`pip show signalseeker`)
@@ -30,7 +30,7 @@ Be respectful, inclusive, and constructive in all interactions. We welcome contr
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/yourusername/SignalSeeker.git
+   git clone https://github.com/Amidn/SignalSeeker.git
    cd SignalSeeker
    ```
 

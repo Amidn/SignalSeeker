@@ -2,7 +2,7 @@
 
 **SignalSeeker** is a comprehensive, production-quality Python package that teaches how to build machine learning pipelines for **binary classification using Boosted Decision Trees (XGBoost)** in a **signal/background separation context**, inspired by particle physics applications.
 
-[![GitHub](https://img.shields.io/badge/GitHub-SignalSeeker-blue)](https://github.com/yourusername/SignalSeeker)
+[![GitHub](https://img.shields.io/badge/GitHub-SignalSeeker-blue)](https://github.com/Amidn/SignalSeeker)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-green)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -51,7 +51,7 @@ SignalSeeker teaches all these concepts through a **production-quality, fully-fe
 ### Option 1: Development Install (Recommended for Learning)
 
 ```bash
-git clone https://github.com/yourusername/SignalSeeker.git
+git clone https://github.com/Amidn/SignalSeeker.git
 cd SignalSeeker
 pip install -e .
 ```
@@ -61,7 +61,7 @@ This allows you to modify source files and see changes immediately.
 ### Option 2: Regular Install from GitHub
 
 ```bash
-pip install git+https://github.com/yourusername/SignalSeeker.git
+pip install git+https://github.com/Amidn/SignalSeeker.git
 ```
 
 ### Option 3: Install from PyPI (when published)
@@ -521,7 +521,7 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 **Amid Nayerhoda**  
 Email: amid.nayerhoda@gmail.com  
-GitHub: [@yourusername](https://github.com/yourusername)
+GitHub: [@Amidn](https://github.com/Amidn)
 
 ## 🙏 Acknowledgments
 
@@ -535,7 +535,7 @@ This package was designed as an educational resource to teach:
 
 For issues, questions, or suggestions:
 1. Check the [FAQ](#-faq) above
-2. Check existing [GitHub Issues](https://github.com/yourusername/SignalSeeker/issues)
+2. Check existing [GitHub Issues](https://github.com/Amidn/SignalSeeker/issues)
 3. Create a new issue with clear description and example code
 4. Read the docstrings in the source code for detailed explanations
 
