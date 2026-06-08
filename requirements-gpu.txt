@@ -1,0 +1,19 @@
+# SignalSeeker - GPU Support Dependencies
+# Install with: pip install -r requirements-gpu.txt
+#
+# IMPORTANT: You must have CUDA-capable GPU and CUDA Toolkit installed first
+# See: https://xgboost.readthedocs.io/en/latest/gpu/index.html
+
+# Include core dependencies
+-r requirements.txt
+
+# GPU-enabled XGBoost
+# If installation fails, manually install:
+# pip install xgboost[gpu]
+xgboost[gpu]>=1.5.0
+
+# GPU computing utilities (optional, for CuPy/RAPIDS integration)
+# Uncomment to use: pip install cupy-cuda11x
+# where 11x is your CUDA version (e.g., cupy-cuda11 for CUDA 11.x)
+# cupy-cuda11>=11.0.0
+# rapids>=21.10.0  # Full RAPIDS stack (if needed)
