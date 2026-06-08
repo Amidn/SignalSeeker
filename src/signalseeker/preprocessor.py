@@ -255,6 +255,8 @@ class DataPreprocessingPipeline:
         """
         directory.mkdir(parents=True, exist_ok=True)
         self.feature_preprocessor.save(directory / "scaler.joblib")
+        if self.config.handle_missing:
+            joblib.dump(self.missing_handler.imputer, directory / "imputer.joblib")
 
     def load(self, directory: Path) -> None:
         """Load previously saved preprocessing components.
@@ -263,4 +265,9 @@ class DataPreprocessingPipeline:
             directory: Directory containing preprocessing artifacts.
         """
         self.feature_preprocessor.load(directory / "scaler.joblib")
+        if self.config.handle_missing:
+            imputer_path = directory / "imputer.joblib"
+            if imputer_path.exists():
+                self.missing_handler.imputer = joblib.load(imputer_path)
+                self.missing_handler.is_fitted = True
         self.is_fitted = True
