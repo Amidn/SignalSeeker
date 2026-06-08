@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "signalseeker"
-version = "0.2.0"
+version = "0.2.1"
 description = "Educational binary classification with XGBoost for signal/background separation"
 readme = "README.md"
 requires-python = ">=3.8"

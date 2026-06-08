@@ -25,7 +25,7 @@ References:
 - Particle Physics ML: Baldi et al. (2016)
 """
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 __author__ = "SignalSeeker Team"
 __email__ = "amid.nayerhoda@gmail.com"
 
